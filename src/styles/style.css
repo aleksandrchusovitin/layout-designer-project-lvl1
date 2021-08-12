@@ -1,1 +1,48 @@
-/** CSS STYLE **/
+@font-face {
+  font-weight: 400;
+  font-family: 'Neucha';
+  src: url('../fonts/Neucha-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+body {
+  color: #2a2626;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+
+  background-color: #fff;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 100px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
