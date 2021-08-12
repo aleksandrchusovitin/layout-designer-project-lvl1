@@ -82,18 +82,22 @@ h3 {
 }
 
 .header {
-  position: relative;
-
-  overflow: hidden;
-
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
 }
 
+.header-container {
+  position: relative;
+
+  overflow: hidden;
+}
+
 .header-title {
   margin-top: 100px;
+
+  font-weight: 400;
 }
 
 .basic-color {
@@ -103,7 +107,7 @@ h3 {
 .header-image {
   position: absolute;
   top: 40px;
-  right: -109px;
+  right: -325px;
 
   height: 525px;
 }
