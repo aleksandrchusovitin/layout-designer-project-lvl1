@@ -152,3 +152,22 @@ h3 {
   margin-top: 40px;
   margin-bottom: 100px;
 }
+
+.about {
+  text-align: center;
+}
+
+.about-title {
+  font-weight: 400;
+}
+
+.about-description {
+  margin-top: 30px;
+}
+
+.about-video {
+  position: relative;
+  top: 100px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
