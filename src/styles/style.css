@@ -139,6 +139,9 @@ p {
 }
 
 .header-title {
+  position: relative;
+  z-index: 2;
+
   font-weight: 400;
 }
 
@@ -308,7 +311,7 @@ p {
 .card-title {
   margin-bottom: 30px;
 
-  font-weight: 40;
+  font-weight: 400;
 }
 
 .card-title-description {
@@ -341,7 +344,7 @@ p {
 
 .card-description-container {
   display: flex;
-  flex-direction: space-between;
+  justify-content: space-between;
 }
 
 .card-description {
