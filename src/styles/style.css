@@ -262,10 +262,16 @@ p {
   text-transform: inherit;
 }
 
-.ikea-effect {
+.card {
   position: relative;
   z-index: -2;
+}
 
+.card-dark {
+  background-color: var(--brown);
+}
+
+.card-light {
   background-color: var(--light);
 }
 
@@ -321,6 +327,12 @@ p {
   background-color: var(--brown);
 }
 
+.card-how-does-bias-white {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
 .card-description-container {
   display: flex;
   flex-direction: space-between;
@@ -338,40 +350,12 @@ p {
   padding-left: 30px;
 }
 
-.card-white-text {
-  color: var(--white);
-}
-
-.premature-optimization {
-  position: relative;
-  z-index: -2;
-
-  background-color: var(--brown);
-}
-
 .premature-optimization-pre-title {
   color: var(--translucentWhite);
 }
 
-.premature-optimization-image {
-  vertical-align: middle;
-}
-
-.card-how-does-bias-premature-optimization {
-  color: var(--brown);
-
-  background-color: var(--white);
-}
-
 .card-description-right-premature-optimization {
   padding-left: 0;
-}
-
-.distortion-of-novelty {
-  position: relative;
-  z-index: -2;
-
-  background-color: var(--light);
 }
 
 .distortion-of-novelty-title-block {
@@ -386,23 +370,14 @@ p {
   padding-left: 10px;
 }
 
-.hyperbolic-depreciation {
-  position: relative;
-  z-index: -2;
-
-  background-color: var(--brown);
-}
-
 .hyperbolic-depreciation-card-title-description {
   padding-right: 30px;
 }
 
-.card-how-does-bias-hyperbolic-depreciation {
-  color: var(--brown);
-
-  background-color: var(--white);
-}
-
 .card-description-right-hyperbolic-depreciation {
   padding-left: 10px;
+}
+
+.errors-in-planning-card-description-left {
+  padding-right: 10px;
 }
