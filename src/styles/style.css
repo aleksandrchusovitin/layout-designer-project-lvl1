@@ -366,3 +366,22 @@ p {
 .card-description-right-premature-optimization {
   padding-left: 0;
 }
+
+.distortion-of-novelty {
+  position: relative;
+  z-index: -2;
+
+  background-color: var(--light);
+}
+
+.distortion-of-novelty-title-block {
+  padding-left: 30px;
+}
+
+.card-description-left-distortion-of-novelty {
+  padding-right: 20px;
+}
+
+.card-description-right-distortion-of-novelty {
+  padding-left: 10px;
+}
