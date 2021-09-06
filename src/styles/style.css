@@ -25,11 +25,13 @@
   --translucentWhite: #d7ccc0;
   --light: #f5f4f0;
   --basic: #fe8a02;
+  --darkOrange: #ea7600;
   --basicDark: #42413c;
   --dark: #2a2626;
   --translucentDark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
+  --ligthGrey: #757575;
 }
 
 body {
@@ -97,7 +99,7 @@ p {
 }
 
 .btn:hover {
-  background: #ea7600;
+  background: var(--darkOrange);
 }
 
 .header {
@@ -399,4 +401,112 @@ p {
 
 .errors-in-planning-card-description-left {
   padding-right: 10px;
+}
+
+footer {
+  padding: 100px 0;
+}
+
+.form-block {
+  display: flex;
+  width: 1110px;
+  height: 190px;
+  margin-bottom: 60px;
+
+  background-color: var(--basicDark);
+}
+
+.form-description {
+  flex-basis: 50%;
+}
+
+.form-description-text {
+  margin-right: 122px;
+  padding-top: 55px;
+  padding-left: 55px;
+
+  font-weight: 400;
+  font-size: 34px;
+  font-family: "Neucha", cursive;
+  line-height: 40px;
+}
+
+.footer-form {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  padding-top: 38px;
+  padding-left: 30px;
+}
+
+.footer-form-label {
+  margin-bottom: 9px;
+
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.input-block {
+  display: flex;
+  padding-right: 55px;
+}
+
+.footer-input-email {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+}
+
+.footer-input-email::placeholder {
+  color: var(--ligthGrey);
+  font-weight: 40;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-submit-footer {
+  position: relative;
+
+  width: 70px;
+  height: 50px;
+  border: none;
+
+  background-color: var(--basic);
+  cursor: pointer;
+}
+
+.btn-submit-footer:hover {
+  background: var(--darkOrange);
+}
+
+.btn-submit-footer::before {
+  position: absolute;
+  top: 13px;
+  right: 0;
+  bottom: 0;
+  left: 18px;
+
+  background-image: url("../images/send.svg");
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+.convention-description {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.creator-name {
+  margin-bottom: 16px;
+}
+
+.materials-link {
+  margin-bottom: 16px;
 }
