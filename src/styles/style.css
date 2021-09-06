@@ -266,9 +266,19 @@ p {
 }
 
 .cognitive-biases-item:not(:first-child):hover {
-  color: var(--white);
-
   background-color: var(--basic);
+}
+
+.cognitive-biases-item:not(:first-child):hover .cognitive-biases-item-count {
+  color: var(--white);
+}
+
+.cognitive-biases-item:not(:first-child):hover .cognitive-biases-title {
+  color: var(--white);
+}
+
+.cognitive-biases-item:not(:first-child):hover .cognitive-biases-description {
+  color: var(--white);
 }
 
 .card {
