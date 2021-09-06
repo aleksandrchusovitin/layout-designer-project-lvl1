@@ -385,3 +385,24 @@ p {
 .card-description-right-distortion-of-novelty {
   padding-left: 10px;
 }
+
+.hyperbolic-depreciation {
+  position: relative;
+  z-index: -2;
+
+  background-color: var(--brown);
+}
+
+.hyperbolic-depreciation-card-title-description {
+  padding-right: 30px;
+}
+
+.card-how-does-bias-hyperbolic-depreciation {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
+.card-description-right-hyperbolic-depreciation {
+  padding-left: 10px;
+}
