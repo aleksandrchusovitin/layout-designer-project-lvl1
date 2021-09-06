@@ -56,8 +56,9 @@ h3 {
   margin: 0;
   padding: 0;
 
+  color: var(--basic);
+  font-weight: 400;
   font-family: "Neucha", cursive;
-
   line-height: 1.2em;
 }
 
@@ -127,6 +128,14 @@ p {
   opacity: 0.1;
 
   content: "";
+}
+
+.dark-text {
+  color: var(--dark);
+}
+
+.white-text {
+  color: var(--white);
 }
 
 .header-title {
@@ -270,7 +279,7 @@ p {
   vertical-align: middle;
 }
 
-.card-title-block {
+.ikea-effect-title-block {
   padding-left: 30px;
 }
 
@@ -294,6 +303,7 @@ p {
   font-weight: 400;
   font-size: 34px;
   font-family: "Neucha", cursive;
+  line-height: 41px;
 }
 
 .card-how-does-bias {
@@ -304,6 +314,7 @@ p {
   color: var(--white);
   font-weight: 700;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   line-height: normal;
   text-transform: uppercase;
 
@@ -329,4 +340,29 @@ p {
 
 .card-white-text {
   color: var(--white);
+}
+
+.premature-optimization {
+  position: relative;
+  z-index: -2;
+
+  background-color: var(--brown);
+}
+
+.premature-optimization-pre-title {
+  color: var(--translucentWhite);
+}
+
+.premature-optimization-image {
+  vertical-align: middle;
+}
+
+.card-how-does-bias-premature-optimization {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
+.card-description-right-premature-optimization {
+  padding-left: 0;
 }
