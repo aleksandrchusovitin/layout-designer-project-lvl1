@@ -47,7 +47,7 @@ body {
 }
 
 section {
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 h1,
@@ -143,12 +143,14 @@ p {
   right: -298px;
 
   height: 525px;
+
+  vertical-align: middle;
 }
 
 .header-description {
   display: flex;
   justify-content: space-between;
-  margin-top: -340px;
+  margin-top: -320px;
 }
 
 .header-left-content {
@@ -166,8 +168,6 @@ p {
 }
 
 .about {
-  margin: 0;
-  margin-top: 100px;
 
   text-align: center;
 }
@@ -184,13 +184,13 @@ p {
 .about-video {
   position: relative;
 
+  margin-bottom: -200px;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .cognitive-biases {
-  margin-top: -100px;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 150px;
 
   background-color: var(--basicDark);
 }
@@ -251,4 +251,82 @@ p {
   color: var(--dark);
   font-weight: 400;
   text-transform: inherit;
+}
+
+.ikea-effect {
+  position: relative;
+  z-index: -2;
+
+  background-color: var(--light);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.card-image {
+  vertical-align: middle;
+}
+
+.card-title-block {
+  padding-left: 30px;
+}
+
+.card-pre-title {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Neucha", cursive;
+}
+
+.ikea-effect-pre-title {
+  color: var(--translucentDark);
+}
+
+.card-title {
+  margin-bottom: 30px;
+
+  font-weight: 40;
+}
+
+.card-title-description {
+  font-weight: 400;
+  font-size: 34px;
+  font-family: "Neucha", cursive;
+}
+
+.card-how-does-bias {
+  height: 28px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+
+  background-color: var(--brown);
+}
+
+.card-description-container {
+  display: flex;
+  flex-direction: space-between;
+}
+
+.card-description {
+  flex-basis: 50%;
+}
+
+.card-description-left {
+  padding-right: 5px;
+}
+
+.card-description-right {
+  padding-left: 30px;
+}
+
+.card-white-text {
+  color: var(--white);
 }
